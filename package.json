@@ -1,0 +1,21 @@
+{
+  "name": "task",
+  "version": "1.0.0",
+  "description": "practical system",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": " cd api && node index.js",
+    "dev": "cd api && nodemon index.js"
+  },
+  "author": "harshada mali",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "mongodb": "^6.11.0",
+    "mongoose": "^8.8.3",
+    "nodemon": "^3.1.7"
+  },
+  "keywords": []
+}
