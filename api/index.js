@@ -18,7 +18,7 @@ app.use("/api/v1", router);
 
 dbConnect();
 app.get("/",(req,res)=>{
-  res.send("Hello");
+  res.send("Welcome");
 });
 
 app.listen(PORT, () => {
